@@ -7,10 +7,14 @@
    One major issue is the rising rate of booking cancellations, which impacts revenue and room planning. This project analyzes hotel booking data to uncover the key factors driving cancellations and provide insights that help hotels improve forecasting, operations, and profitability.
    
 ---
-## Problem Statement & Key Questions
+## Problem Statement
+ 1.With the rise of digital booking platforms, hotel cancellations have increased and now impact revenue and room planning. Analyzing the factors behind these cancellations helps hotels improve forecasting and manage operations more effectively.
+
+---
+## Key Questions
  1. Which countries have the highest and lowest cancellation rates among the Top 10 booking countries?
  2. How do customer type, market segment, deposit type, and distribution channel influence the likelihood of booking cancellations, and which groups exhibit the  highest cancellation risk?
- 3. Which features (lead time, ADR, room type, customer type, etc.) show the strongest relationship with cancellation?
+ 3. Which features (lead time, ADR, stay in week nights, etc.) show the strongest relationship with cancellation?
    - Does longer lead time significantly increase the likelihood of cancellation?
    - Are price-sensitive customers (high ADR or discounts) more likely to cancel?
    - Does longer stay increase cancellation rate?
@@ -69,7 +73,7 @@ Stacked bar chart: Canceled vs Not Canceled for Top 10 countries
 5. Countries with high cancellation propensity should be flagged as High-Risk Market Segments for more controlled booking policies.
 
 **Summarize:**
-Italy, Brazil, and Portugal show the highest cancellation rates despite high booking volumes, while Germany, the UK, and the Netherlands remain the most stable markets.
+Brazil, Portugal and Italy show the highest cancellation rates despite high booking volumes, while Germany, the UK, and the Netherlands remain the most stable markets.
 
 ---
 **2. Customer Type, Market Segment, Deposit Type, and Distribution Channel**
