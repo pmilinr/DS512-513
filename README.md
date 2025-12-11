@@ -55,7 +55,7 @@
 ---
 **1. Top 10 Countries by Cancellation Rates**
 
-isualization: Map of top booking countries
+Visualization: Map of top booking countries
 Stacked bar chart: Canceled vs Not Canceled for Top 10 countries
 
 ![Top_10_Booking_and_cancel_2](https://github.com/user-attachments/assets/4a9f0cae-cc77-4eea-bd25-155c4f42e63e)
