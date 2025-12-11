@@ -47,7 +47,7 @@ With data-driven strategies informed by the cancellation model, the hotel is exp
 - Adjust column types to appropriate dtypes (e.g., dates, integers, categories).
 - Creating Total Guests (Adult + Children + Babies)
 - Result after cleaning:
-     - **87,110 rows**
+     - **87,108 rows**
      - **30 columns**
 
 ---
@@ -156,37 +156,22 @@ Visualization: Boxplot comparing week-night stays and Histogram of stay duration
 Cancellation rates rise as week-night stays increase. Long-stay bookings show the highest cancellation risk, while short stays remain more stable.
 
 ---
-**7. Total Guests vs Cancellation**
-
-Visualization:Boxplot showing total guests vs cancellation and Histogram for group size distribution
-
-![Total guest](https://github.com/user-attachments/assets/ca33a7c5-d747-4421-bdb1-e527891a252c)
-
-
-**Key Findings:**
-1. Most cancellations occur among small groups (1–4 guests).
-2. Very large groups (20–55 guests) appear only in the canceled group → potential data entry errors or high-risk group behavior.
-3. Total guests is a weak predictor, except for extreme outliers.
-
-**Summarize:**
-Total Guests is a weak predictor, except for extreme outliers (large groups), which tend to cancel more frequently.
-
----
-**8. Forecast of Monthly Booking Cancellations**
+**7. Forecast of Monthly Booking Cancellations**
 
 Visualization: Line chart with forecast shading
 - Shows upward trend of cancellations
 - Peak cancellations during March–May
-- Highest value: ~5,734 cancellations in May 2018
 
-![forecast](https://github.com/user-attachments/assets/9eb47b0e-7064-4be7-9ff2-2ba4d583eb4d)
+![forecast](https://github.com/user-attachments/assets/a9680ab1-178b-4ddd-a62c-01ac6e44745c)
+
 
 **Key Findings:**
 1. Cancellations rise steadily across the years, especially through 2018.
-2. Guests typically cancel 1–3 months before travel, explaining the peak in spring (Mar–May).
-3. Although Portugal’s tourist high season = June–August, cancellations peak before the actual travel period.
-4. Customers may shop around during early months and cancel early bookings.
-5. Hotels should adjust deposit or lead-time policies in high-risk months.
+2. Cancellation rates start rising in March–May.
+3. They reach their highest levels in July–August every year
+4. Although Portugal’s tourist high season = June–August, cancellations peak before the actual travel period.
+5. Customers may shop around during early months and cancel early bookings.
+6. Hotels should adjust deposit or lead-time policies in high-risk months.
 
 ---
 ## **Summarize**
@@ -195,11 +180,9 @@ Visualization: Line chart with forecast shading
 1. It was found that as the lead time increases, the likelihood of a booking being canceled also rises.
 2. A higher Average Daily Rate (ADR) also tends to increase the chance that customers will cancel their reservations.
 3. Countries with the highest cancellation rates include Italy, Brazil, and Portugal.
-4. Small groups and transient customers cancel more frequently.
-5. Online Travel Agencies and non-refundable bookings have the highest cancellation risks.
-6. Seasonal patterns show cancellation clusters during March–May.
-7. High-value bookings (high ADR) are more likely to be canceled.
-8. Long-stay reservations are disproportionately represented among canceled bookings.
+4. Online Travel Agencies and non-refundable bookings have the highest cancellation risks.
+5. Seasonal patterns show cancellation clusters during March–May and peak during July–August, showing a clear seasonal pattern where guests typically cancel 1–3 months before the high tourism season..
+6. Long-stay reservations are disproportionately represented among canceled bookings.
 
 ---
 ## **Recommendation/Action**
@@ -212,7 +195,7 @@ Visualization: Line chart with forecast shading
 6. Offer direct-booking benefits to shift customers from OTA channels.
 7. Require partial prepayment for reservations > 7 nights.
 8. Provide stay packages or discounts to lock in longer stays.
-9. March–May is a critical risk window for revenue loss.
+9. March–August is a critical risk window for revenue loss.
     - Shortening payment deadlines
     - Implementing stricter deposit requirements
     - Offering price incentives to secure bookings earlier
