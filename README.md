@@ -160,8 +160,8 @@ Cancellation rates rise as week-night stays increase. Long-stay bookings show th
 **7. Forecast of Monthly Booking Cancellations**
 
 Visualization: Line chart with forecast shading
-- Shows upward trend of cancellations
-- Peak cancellations during March–May
+- Shows upward trend of cancellations.
+- Peak cancellations during July–August.
 
 ![forecast](https://github.com/user-attachments/assets/a9680ab1-178b-4ddd-a62c-01ac6e44745c)
 
@@ -169,10 +169,9 @@ Visualization: Line chart with forecast shading
 **Key Findings:**
 1. Cancellations rise steadily across the years, especially through 2018.
 2. Cancellation rates start rising in March–May.
-3. They reach their highest levels in July–August every year
-4. Although Portugal’s tourist high season = June–August, cancellations peak before the actual travel period.
-5. Customers may shop around during early months and cancel early bookings.
-6. Hotels should adjust deposit or lead-time policies in high-risk months.
+3. They reach their highest levels in July–August every year,athough Portugal’s tourist high season = June–August, cancellations peak before the actual travel period.
+4. Customers may shop around during early months and cancel early bookings.
+5. Hotels should adjust deposit or lead-time policies in high-risk months.
 
 ---
 ## **Summarize**
