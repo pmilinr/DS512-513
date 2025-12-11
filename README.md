@@ -28,8 +28,6 @@
 ## Value Propositions
    Our analysis identifies the key factors that most strongly influence booking cancellations, such as lead time and ADR, enabling hotel owners to optimize revenue planning, allocate staff efficiently, and reduce operational uncertainty.
 
-With data-driven strategies informed by the cancellation model, the hotel is expected to increase revenue by up to 30% within 6 months.
-
 ---
 ## Dataset Description
    This dataset contains 119390 observations for a City Hotel and a Resort Hotel. Each observation represents a hotel booking between the 1st of July 2015 and 31st of August 2017, including booking that effectively arrived and booking that were canceled.
@@ -38,7 +36,6 @@ With data-driven strategies informed by the cancellation model, the hotel is exp
 ## Data Dictionary
 
 <img width="1001" height="1801" alt="datadic" src="https://github.com/user-attachments/assets/232618aa-c663-454a-af2b-5b6a9e709dcc" />
-
 
 ---
 # Exploratory Data Analysis (EDA)
@@ -49,7 +46,6 @@ With data-driven strategies informed by the cancellation model, the hotel is exp
      - Rows with missing / NULL values (where appropriate)
      - Outliers (extreme ADR values)
 - Adjust column types to appropriate dtypes (e.g., dates, integers, categories).
-- Creating Total Guests (Adult + Children + Babies)
 - Result after cleaning:
      - **87,108 rows**
      - **30 columns**
@@ -60,7 +56,7 @@ With data-driven strategies informed by the cancellation model, the hotel is exp
 ---
 **1. Top 10 Countries by Cancellation Rates**
 
-Map of top booking countries
+isualization: Map of top booking countries
 Stacked bar chart: Canceled vs Not Canceled for Top 10 countries
 
 ![Top_10_Booking_and_cancel_2](https://github.com/user-attachments/assets/4a9f0cae-cc77-4eea-bd25-155c4f42e63e)
