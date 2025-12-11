@@ -129,7 +129,7 @@ Guests who book far in advance tend to cancel more frequently.
 Visualization: Bar chart showing average ADR for each cancellation group
 Boxplot + histogram for ADR distribution
 
-![ADR_cancel](https://github.com/user-attachments/assets/84dbebb9-853b-46c4-86ba-0b7d0f33f61e)
+![ADR_cancel](https://github.com/user-attachments/assets/0ad7ab49-69c0-48b0-9fc6-e4e6ff39fa92)
 
 **Key Findings:**
 1. Canceled bookings also peak around 70–150, but show more bookings in higher ADR ranges compared to non-canceled.
