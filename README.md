@@ -19,10 +19,9 @@
    - Are price-sensitive customers (high ADR or discounts) more likely to cancel?
    - Does longer stay increase cancellation rate?
      
-
                                   The chart shows the revenue impact caused by booking cancellations.
-![booking and revenue](https://github.com/user-attachments/assets/ee53147b-242e-43e1-99e1-ffd6d6b1a16f)
 
+![booking and revenue](https://github.com/user-attachments/assets/46d2663f-9f69-4f6b-9361-cd5614d560aa)
 
 ---
 ## Value Propositions
