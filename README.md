@@ -162,7 +162,7 @@ Visualization: Line chart with forecast shading
 - Shows upward trend of cancellations.
 - Peak cancellations during July–August.
 
-![forecast](https://github.com/user-attachments/assets/a9680ab1-178b-4ddd-a62c-01ac6e44745c)
+![forecast](https://github.com/user-attachments/assets/db01c476-bccb-4ffe-a55b-74f3d002cb69)
 
 
 **Key Findings:**
@@ -171,6 +171,7 @@ Visualization: Line chart with forecast shading
 3. They reach their highest levels in July–August every year,athough Portugal’s tourist high season = June–August, cancellations peak before the actual travel period.
 4. Customers may shop around during early months and cancel early bookings.
 5. Hotels should adjust deposit or lead-time policies in high-risk months.
+6. The forecast indicates that cancellation rates are primarily driven by strong seasonality, with an additional upward trend, leading to higher cancellation risk during peak travel months.
 
 ---
 ## **Summarize**
@@ -187,7 +188,7 @@ Visualization: Line chart with forecast shading
 ## **Recommendation/Action**
 
 1. Reduce the maximum advance booking period to no more than 360 days (from two years to one year).
-2. Adjust booking strategies by requiring a 30% deposit at the time of reservation or shortening the payment deadline, especially for high-risk segments such as OTA bookings, long lead-time reservations, high-ADR bookings, and guests fr
+2. Adjust booking strategies by requiring a 30% deposit at the time of reservation or shortening the payment deadline, especially for high-risk segments such as OTA bookings, long lead-time reservations and high-ADR bookings.
 3. Provide flexible pricing or perks for high-ADR bookings to reduce price sensitivity.
 4. Apply stricter cancellation or deposit policies to countries with historically high cancellation rates.
 5. Negotiate terms with OTAs for stricter cancellation rules.
