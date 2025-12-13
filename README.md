@@ -1,6 +1,12 @@
 # DS512-513
 # Analyzing Factors Influencing Hotel Booking Cancellations to Enhance Sales Strategy
 
+## Data Source  
+Kaggle Notebook: “EDA of bookings and ML to predict cancelations”  
+Source link: https://www.kaggle.com/code/marcuswingen/eda-of-bookings-and-ml-to-predict-cancelations
+- **Total Rows:** 119,390 records  
+- **Total Columns:** 32 features  
+
 ## Overview
    The hotel industry is rapidly transforming as digital platforms make booking easier and more convenient for guests. While this brings new opportunities, it also creates challenges, especially for hotels that want to reduce reliance on third-party platforms and manage bookings more efficiently. 
 
@@ -53,7 +59,7 @@
 # Data Analysis & Key Findings
 
 ---
-**1. Top 10 Countries by Cancellation Rates**
+**1. Which countries have the highest and lowest cancellation rates among the Top 10 booking countries?**
 
 Visualization: Map of top booking countries
 Stacked bar chart: Canceled vs Not Canceled for Top 10 countries
@@ -71,7 +77,7 @@ Stacked bar chart: Canceled vs Not Canceled for Top 10 countries
 Brazil, Portugal and Italy show the highest cancellation rates despite high booking volumes, while Germany, the UK, and the Netherlands remain the most stable markets.
 
 ---
-**2. Customer Type, Market Segment, Deposit Type, and Distribution Channel**
+**2. How do customer type, market segment, deposit type, and distribution channel influence the likelihood of booking cancellations, and which groups exhibit the highest cancellation risk?**
 
 Visualization: Multiple stacked bar charts
 
@@ -89,9 +95,9 @@ Visualization: Multiple stacked bar charts
 - The riskiest groups are: Online TA, TA/TO, Transient customers and No-refund deposit bookings.
 
 ---
-**3.Correlation**
+**3.Which features (lead time, ADR etc.) show the strongest relationship with cancellation?**
 
-Visualization: Pearson correlation table
+Visualization: Pearson correlation table 
 
 ![Correl](https://github.com/user-attachments/assets/77f897ab-c158-47f4-ab84-f3b1eab7063a)
 
@@ -108,7 +114,7 @@ Arrival Year was excluded from the analysis due to significant data imbalance. S
 Lead time and ADR are the most influential positive predictors of cancellation in this dataset
 
 ---
-**4. Lead Time vs Cancellation**
+**4. Does longer lead time significantly increase the likelihood of cancellation?**
 
 Visualization: Histogram + Boxplot comparing Lead Time for Canceled vs Not Canceled bookings.
 
@@ -124,7 +130,7 @@ Visualization: Histogram + Boxplot comparing Lead Time for Canceled vs Not Cance
 Guests who book far in advance tend to cancel more frequently.
 
 ---
-**5. ADR (Average Daily Rate) vs Cancellation**
+**5.Are price-sensitive customers (high ADR or discounts) more likely to cancel?**
 
 Visualization: Bar chart showing average ADR for each cancellation group
 Boxplot + histogram for ADR distribution
@@ -141,7 +147,7 @@ Boxplot + histogram for ADR distribution
 Higher ADR bookings show a higher cancellation tendency, with canceled reservations having ~18% higher ADR on average and a wider distribution, indicating high-priced bookings are more likely to be canceled.
 
 ---
-**6. Length of Stay (Week Nights) vs Cancellation**
+**6. Does longer stay increase cancellation rate?**
 
 Visualization: Boxplot comparing week-night stays and Histogram of stay durations
 
@@ -156,7 +162,7 @@ Visualization: Boxplot comparing week-night stays and Histogram of stay duration
 Cancellation rates rise as week-night stays increase. Long-stay bookings show the highest cancellation risk, while short stays remain more stable.
 
 ---
-**7. Forecast of Monthly Booking Cancellations**
+**7. Does seasonality have a significant impact on booking cancellations?**
 
 Visualization: Line chart with forecast shading
 - Shows upward trend of cancellations.
@@ -166,10 +172,10 @@ img/da/forecast_cancellations.jpg
 
 
 **Key Findings:**
-1. Cancellations rise steadily across the years, especially through 2018.
+1. Cancellations show a clear upward trend throughout 2018
 2. Cancellation rates start rising in March–May.
 3. They reach their highest levels in July–August every year,athough Portugal’s tourist high season = June–August, cancellations peak before the actual travel period.
-4. Customers may shop around during early months and cancel early bookings.
+4. The increase in cancellation rates is predominantly seasonal, as seasonality explains the majority of the forecast variance, while the long-term trend plays a secondary role.
 5. Hotels should adjust deposit or lead-time policies in high-risk months.
 
 ---
@@ -180,7 +186,7 @@ img/da/forecast_cancellations.jpg
 2. A higher Average Daily Rate (ADR) also tends to increase the chance that customers will cancel their reservations.
 3. Countries with the highest cancellation rates include Italy, Brazil, and Portugal.
 4. Online Travel Agencies and non-refundable bookings have the highest cancellation risks.
-5. Seasonal patterns show cancellation clusters during March–May and peak during July–August, showing a clear seasonal pattern where guests typically cancel 1–3 months before the high tourism season..
+5. Seasonal patterns show cancellation clusters during March–May and peak during July–August, showing a clear seasonal pattern where guests typically cancel 1–3 months before the high tourism season.
 6. Long-stay reservations are disproportionately represented among canceled bookings.
 
 ---
