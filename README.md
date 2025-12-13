@@ -38,7 +38,7 @@ This dataset contains 119390 observations for a City Hotel and a Resort Hotel. E
 ---
 ## Data Dictionary
 
-img/datadic.png
+![data_dictionary](img/datadic.png)
 
 ---
 # Exploratory Data Analysis (EDA)
