@@ -137,10 +137,10 @@ Visualization:
 ![ADR_cancel](img/ADR_cancel.jpg)
 
 **Key Findings:**
-1. Canceled bookings also peak around 70–150, but show more bookings in higher ADR ranges compared to non-canceled.
-2. Canceled bookings have ~18% higher ADR.
-3. High-value bookings (ADR > 400) appear mostly in the canceled group.
-4. Suggests price sensitivity increases cancellation likelihood.
+1.Canceled bookings have ~18% higher ADR.
+2. High-value bookings (ADR > 400) appear mostly in the canceled group.
+3. The median ADR levels are broadly comparable between canceled and non-canceled bookings.
+4. Some high-value bookings are more likely to be canceled.
 
 **Summarize:**
 Higher ADR bookings show a higher cancellation tendency, with canceled reservations having ~18% higher ADR on average and a wider distribution, indicating high-priced bookings are more likely to be canceled.
