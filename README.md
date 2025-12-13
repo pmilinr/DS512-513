@@ -67,7 +67,7 @@ Stacked bar chart: Canceled vs Not Canceled for Top 10 countries
 **Key Findings:**
 1. Brazil, Italy, and Portugal show the highest cancellation ratios (≥30%).
 2. High booking volume ≠ high cancellation rate.
-3. Countries like France, UK, Germany have high total bookings but lower cancellation percentages (<25%).
+3. Countries like France, UK, Germany have high total bookings but lower cancellation percentages (<20%).
 4. Western Europe remains the hotel’s core market, but targeted strategies may be required for countries with unstable booking behavior.
 5. Countries with high cancellation propensity should be flagged as High-Risk Market Segments for more controlled booking policies.
 
