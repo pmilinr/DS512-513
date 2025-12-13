@@ -29,7 +29,7 @@ This dataset contains 119390 observations for a City Hotel and a Resort Hotel. E
      
                                   The chart shows the revenue impact caused by booking cancellations.
      
-![booking_and_revenue](img/booking and revenue.jpg)
+![booking_and_revenue](img/booking_and_revenue.jpg)
 
 ---
 ## Value Propositions
