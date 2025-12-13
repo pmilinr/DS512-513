@@ -187,7 +187,7 @@ Visualization: Line chart with forecast shading
 ## **Recommendation/Action**
 
 1. Reduce the maximum advance booking period to no more than 360 days (from two years to one year).
-2. Adjust booking strategies by requiring a 30% deposit at the time of reservation or shortening the payment deadline, especially for high-risk segments such as OTA bookings, long lead-time reservations, high-ADR bookings, and guests fr
+2. Adjust booking strategies by requiring deposit at the time of reservation or shortening the payment deadline, especially for high-risk segments such as OTA bookings, long lead-time reservations, high-ADR bookings, and guests from countries with historically high cancellation rates.
 3. Provide flexible pricing or perks for high-ADR bookings to reduce price sensitivity.
 4. Apply stricter cancellation or deposit policies to countries with historically high cancellation rates.
 5. Negotiate terms with OTAs for stricter cancellation rules.
