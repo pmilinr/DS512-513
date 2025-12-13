@@ -162,7 +162,7 @@ Visualization: Line chart with forecast shading
 - Shows upward trend of cancellations.
 - Peak cancellations during July–August.
 
-![forecast](https://github.com/user-attachments/assets/a9680ab1-178b-4ddd-a62c-01ac6e44745c)
+img/da/forecast_cancellations.jpg
 
 
 **Key Findings:**
