@@ -89,8 +89,9 @@ Visualization: Multiple stacked bar charts
 4. Distribution Channel:TA/TO (Travel Agents / Tour Operators) shows high cancellation rates (>30%).
 
 **Summarize:**
-- Cancellation tendency depends heavily on: who books (customer type), how they book (distribution channel), payment conditions (deposit type)
-- The riskiest groups are: Online TA, TA/TO, Transient customers and No-refund deposit bookings.
+- The riskiest segments in terms of cancellations are: Online TA, TA/TO, and Transient customers.
+- Deposit type shows atypical behavior in this dataset, with Non-Refundable bookings exhibiting unusually high cancellation rates, suggesting dataset-specific patterns that warrant further investigation.
+
 
 ---
 **3.Which features (lead time, ADR etc.) show the strongest relationship with cancellation?**
