@@ -4,6 +4,8 @@
 ## Data Source  
 Kaggle Notebook: “EDA of bookings and ML to predict cancelations”  
 Source link: https://www.kaggle.com/code/marcuswingen/eda-of-bookings-and-ml-to-predict-cancelations
+This dataset contains 119390 observations for a City Hotel and a Resort Hotel. Each observation represents a hotel booking between the 1st of July 2015 and 31st of August 2017, including booking that effectively arrived and booking that were canceled.
+
 - **Total Rows:** 119,390 records  
 - **Total Columns:** 32 features  
 
@@ -27,20 +29,16 @@ Source link: https://www.kaggle.com/code/marcuswingen/eda-of-bookings-and-ml-to-
      
                                   The chart shows the revenue impact caused by booking cancellations.
      
-![booking and revenue](https://github.com/user-attachments/assets/eb2d82bb-7395-4012-b8c9-70b17bb4ba59)
+![booking_and_revenue](img/booking_and_revenue.jpg)
 
 ---
 ## Value Propositions
    Our analysis identifies the key factors that most strongly influence booking cancellations, such as lead time and ADR, enabling hotel owners to optimize revenue planning, allocate staff efficiently, and reduce operational uncertainty.
 
 ---
-## Dataset Description
-   This dataset contains 119390 observations for a City Hotel and a Resort Hotel. Each observation represents a hotel booking between the 1st of July 2015 and 31st of August 2017, including booking that effectively arrived and booking that were canceled.
-
----
 ## Data Dictionary
 
-<img width="1001" height="1801" alt="datadic" src="https://github.com/user-attachments/assets/232618aa-c663-454a-af2b-5b6a9e709dcc" />
+img/datadic.png
 
 ---
 # Exploratory Data Analysis (EDA)
@@ -64,7 +62,7 @@ Source link: https://www.kaggle.com/code/marcuswingen/eda-of-bookings-and-ml-to-
 Visualization: Map of top booking countries
 Stacked bar chart: Canceled vs Not Canceled for Top 10 countries
 
-![Top_10_Booking_and_cancel_2](https://github.com/user-attachments/assets/4a9f0cae-cc77-4eea-bd25-155c4f42e63e)
+![Top_10_Booking_and_cancel_2](img/Top_10_Booking_and_cancel_2.jpg)
 
 **Key Findings:**
 1. Brazil, Italy, and Portugal show the highest cancellation ratios (≥30%).
@@ -81,7 +79,7 @@ Brazil, Portugal and Italy show the highest cancellation rates despite high book
 
 Visualization: Multiple stacked bar charts
 
-![Cancellation Factors-1](https://github.com/user-attachments/assets/70a1192f-e770-4afb-9c5a-d24528666768)
+![Cancellation Factors-1](img/Cancellation_Factors-1.jpg)
 
 
 **Key Findings:**
@@ -135,7 +133,7 @@ Guests who book far in advance tend to cancel more frequently.
 Visualization: Bar chart showing average ADR for each cancellation group
 Boxplot + histogram for ADR distribution
 
-![ADR_cancel](https://github.com/user-attachments/assets/0ad7ab49-69c0-48b0-9fc6-e4e6ff39fa92)
+![ADR_cancel](img/ADR_cancel.jpg)
 
 **Key Findings:**
 1. Canceled bookings also peak around 70–150, but show more bookings in higher ADR ranges compared to non-canceled.
@@ -151,7 +149,7 @@ Higher ADR bookings show a higher cancellation tendency, with canceled reservati
 
 Visualization: Boxplot comparing week-night stays and Histogram of stay durations
 
-![stay_in_week_night](https://github.com/user-attachments/assets/bbc85aec-98e9-401f-bcad-a5dff7cd8698)
+![stay_in_week_night](img/stay_in_week_night.jpg)
 
 **Key Findings:**
 1. Canceled bookings also peak around 1–4 nights, similar to non-canceled.However, the distribution shows more bookings in higher night counts (5–7 nights) compared to non-canceled.
@@ -168,8 +166,7 @@ Visualization: Line chart with forecast shading
 - Shows upward trend of cancellations.
 - Peak cancellations during July–August.
 
-img/da/forecast_cancellations.jpg
-
+![Forecast of Cancellations](img/forecast_cancellations.jpg)
 
 **Key Findings:**
 1. Cancellations show a clear upward trend throughout 2018
