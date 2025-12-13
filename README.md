@@ -16,16 +16,15 @@ This dataset contains 119390 observations for a City Hotel and a Resort Hotel. E
    
 ---
 ## Problem Statement
- 1.With the rise of digital booking platforms, hotel cancellations have increased and now impact revenue and room planning. Analyzing the factors behind these cancellations helps hotels improve forecasting and manage operations more effectively.
+With the rise of digital booking platforms, hotel cancellations have increased and now impact revenue and room planning. Analyzing the factors behind these cancellations helps hotels improve forecasting and manage operations more effectively.
 
 ---
 ## Key Questions
  1. Which countries have the highest and lowest cancellation rates among the Top 10 booking countries?
  2. How do customer type, market segment, deposit type, and distribution channel influence the likelihood of booking cancellations, and which groups exhibit the  highest cancellation risk?
- 3. Which features (lead time, ADR, stay in week nights, etc.) show the strongest relationship with cancellation?
+ 3. Which features (lead time, ADR,etc.) show the positive relationship with cancellation?
    - Does longer lead time significantly increase the likelihood of cancellation?
    - Are price-sensitive customers (high ADR or discounts) more likely to cancel?
-   - Does longer stay increase cancellation rate?
      
                                   The chart shows the revenue impact caused by booking cancellations.
      
@@ -85,13 +84,12 @@ Visualization: Multiple stacked bar charts
 **Key Findings:**
 1. Customer Type: Transient customers have the highest cancellation rate (≈30%).
 2. Market Segment: Online TA (Online Travel Agencies) shows the highest cancellation rate (≈35%).
-3. Deposit Type:No-Refund bookings have extremely high cancellation rates (>95%).
-4. Distribution Channel:TA/TO (Travel Agents / Tour Operators) shows high cancellation rates (>30%).
+3. Deposit Type:No-Refund bookings have extremely high cancellation rates (≈95%).
+4. Distribution Channel:TA/TO (Travel Agents / Tour Operators) shows high cancellation rates (≈30%).
 
 **Summarize:**
 - The riskiest segments in terms of cancellations are: Online TA, TA/TO, and Transient customers.
 - Deposit type shows atypical behavior in this dataset, with Non-Refundable bookings exhibiting unusually high cancellation rates, suggesting dataset-specific patterns that warrant further investigation.
-
 
 ---
 **3.Which features (lead time, ADR etc.) show the strongest relationship with cancellation?**
