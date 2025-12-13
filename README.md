@@ -58,8 +58,9 @@ With the rise of digital booking platforms, hotel cancellations have increased a
 ---
 **1. Which countries have the highest and lowest cancellation rates among the Top 10 booking countries?**
 
-Visualization: Map of top booking countries
-Stacked bar chart: Canceled vs Not Canceled for Top 10 countries
+Visualization: 
+1.Map of top booking countries
+2.Stacked bar chart: Canceled vs Not Canceled for Top 10 countries
 
 ![Top_10_Booking_and_cancel_2](img/Top_10_Booking_and_cancel_2.jpg)
 
@@ -103,7 +104,7 @@ Visualization: Pearson correlation table
   Most relevant factors associated with cancellation :
    1. Lead Time
    2. ADR
-   3. Stay in week night 
+   3. Stay in week night
 
 Arrival Year was excluded from the analysis due to significant data imbalance. Since only the year 2016 contains complete observations, including this feature would introduce bias and reduce the validity of the results.
       
@@ -129,8 +130,9 @@ Guests who book far in advance tend to cancel more frequently.
 ---
 **5.Are price-sensitive customers (high ADR or discounts) more likely to cancel?**
 
-Visualization: Bar chart showing average ADR for each cancellation group
-Boxplot + histogram for ADR distribution
+Visualization: 
+1.Bar chart showing average ADR for each cancellation group
+2.Boxplot + histogram for ADR distribution
 
 ![ADR_cancel](img/ADR_cancel.jpg)
 
@@ -146,7 +148,9 @@ Higher ADR bookings show a higher cancellation tendency, with canceled reservati
 ---
 **6. Does longer stay increase cancellation rate?**
 
-Visualization: Boxplot comparing week-night stays and Histogram of stay durations
+Visualization: 
+1.Boxplot comparing week-night stays 
+2.Histogram of stay durations
 
 ![stay_in_week_night](img/stay_in_week_night.jpg)
 
@@ -162,8 +166,8 @@ Cancellation rates rise as week-night stays increase. Long-stay bookings show th
 **7. Does seasonality have a significant impact on booking cancellations?**
 
 Visualization: Line chart with forecast shading
-- Shows upward trend of cancellations.
-- Peak cancellations during July–August.
+1.Shows upward trend of cancellations.
+2.Peak cancellations during July–August.
 
 ![Forecast of Cancellations](img/forecast_cancellations.jpg)
 
