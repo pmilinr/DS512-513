@@ -16,7 +16,7 @@ This dataset contains 119390 observations for a City Hotel and a Resort Hotel. E
    
 ---
 ## Problem Statement
-With the rise of digital booking platforms, hotel cancellations have increased and now impact revenue and room planning. Analyzing the factors behind these cancellations helps hotels improve forecasting and manage operations more effectively.
+From the dataset hotel cancellations have increased and now impact revenue and room planning. Analyzing the factors behind these cancellations helps hotels improve forecasting and manage operations more effectively.
 
 ---
 ## Key Questions
