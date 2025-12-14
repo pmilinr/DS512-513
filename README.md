@@ -77,8 +77,7 @@ Brazil, Portugal and Italy show the highest cancellation rates despite high book
 ---
 **2. How do customer type, market segment, deposit type, and distribution channel influence the likelihood of booking cancellations, and which groups exhibit the highest cancellation risk?**
 
-Visualization:
-1. Stacked bar shows cancellation distribution across customer type, market segment, deposit type, and distribution channel, divided into Canceled and Not Canceled bookings.
+Visualization: Stacked bar shows cancellation distribution across customer type, market segment, deposit type, and distribution channel, divided into Canceled and Not Canceled bookings.
 
 ![Cancellation Factors-1](img/Cancellation_Factors-_.jpg)
 
@@ -96,8 +95,7 @@ Visualization:
 ---
 **3.Which features (lead time, ADR etc.) show the strongest relationship with cancellation?**
 
-Visualization:
-Pearson correlation table 
+Visualization: Pearson correlation table 
 
 ![Correl](https://github.com/user-attachments/assets/77f897ab-c158-47f4-ab84-f3b1eab7063a)
 
@@ -132,7 +130,7 @@ Guests who book far in advance tend to cancel more frequently.
 ---
 **5.Are price-sensitive customers (high ADR or discounts) more likely to cancel?**
 
-**Visualization: **
+Visualization: 
 1. Bar chart showing average ADR for each cancellation group
 2. Boxplot + histogram for ADR distribution
 
