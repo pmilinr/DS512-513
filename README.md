@@ -162,21 +162,28 @@ Visualization:
 **Summarize:**
 Cancellation rates rise as week-night stays increase. Long-stay bookings show the highest cancellation risk, while short stays remain more stable.
 
+
 ---
 **7. Does seasonality have a significant impact on booking cancellations?**
 
-Visualization: Line chart with forecast shading
-1.Shows upward trend of cancellations.
-2.Peak cancellations during July–August.
+Visualization: 
+1.Graph shows  Monthly Trends of ADR, Lead Time, and Cancellation Rate
+2.Line chart with forecast shading : Shows upward trend of cancellations.
+
+![Monthly_Trends_Cancellation_Rate](img/Monthly_Trends_Cancellation_Rate.jpg)
 
 ![Forecast of Cancellations](img/forecast_cancellations.jpg)
 
 **Key Findings:**
-1. Cancellations show a clear upward trend throughout 2018
-2. Cancellation rates start rising in March–May.
-3. They reach their highest levels in July–August every year,athough Portugal’s tourist high season = June–August, cancellations peak before the actual travel period.
+1. ADR rises seasonally, especially in mid-year, indicating stronger booking demand.
+2. Cancellations show a clear upward trend throughout 2018.
+3. Cancellation rates start rising in March–May and highest levels in July–August every year,athough Portugal’s tourist high season = June–August, cancellations peak before the actual travel period.
 4. The increase in cancellation rates is predominantly seasonal, as seasonality explains the majority of the forecast variance, while the long-term trend plays a secondary role.
 5. Hotels should adjust deposit or lead-time policies in high-risk months.
+
+## **Summarize**
+1. ADR, lead time, and cancellation rates follow similar seasonal patterns, rising around the mid-year months and indicating that longer advance bookings carry higher cancellation risk during this period.
+2. The hotel should consider implementing deposit requirements or adjusting lead time policies specifically during June–August  to reduce revenue loss risk.
 
 ---
 ## **Summarize**
@@ -185,7 +192,7 @@ Visualization: Line chart with forecast shading
 1. It was found that as the lead time increases, the likelihood of a booking being canceled also rises.
 2. A higher Average Daily Rate (ADR) also tends to increase the chance that customers will cancel their reservations.
 3. Countries with the highest cancellation rates include Italy, Brazil, and Portugal.
-4. Online Travel Agencies and non-refundable bookings have the highest cancellation risks.
+4. Online Travel Agencies, non-refundable bookings and TA/TO have the highest cancellation risks.
 5. Seasonal patterns show cancellation clusters during March–May and peak during July–August, showing a clear seasonal pattern where guests typically cancel 1–3 months before the high tourism season.
 6. Long-stay reservations are disproportionately represented among canceled bookings.
 
