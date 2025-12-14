@@ -58,7 +58,7 @@ From the dataset hotel cancellations have increased and now impact revenue and r
 ---
 **1. Which countries have the highest and lowest cancellation rates among the Top 10 booking countries?**
 
-**Visualization: **
+Visualization:
 1. Map of top booking countries
 2. Stacked bar chart: Canceled vs Not Canceled for Top 10 countries
 
@@ -77,7 +77,7 @@ Brazil, Portugal and Italy show the highest cancellation rates despite high book
 ---
 **2. How do customer type, market segment, deposit type, and distribution channel influence the likelihood of booking cancellations, and which groups exhibit the highest cancellation risk?**
 
-**Visualization:**
+Visualization:
 1. Stacked bar shows cancellation distribution across customer type, market segment, deposit type, and distribution channel, divided into Canceled and Not Canceled bookings.
 
 ![Cancellation Factors-1](img/Cancellation_Factors-_.jpg)
@@ -96,7 +96,7 @@ Brazil, Portugal and Italy show the highest cancellation rates despite high book
 ---
 **3.Which features (lead time, ADR etc.) show the strongest relationship with cancellation?**
 
-**Visualization: **
+Visualization:
 Pearson correlation table 
 
 ![Correl](https://github.com/user-attachments/assets/77f897ab-c158-47f4-ab84-f3b1eab7063a)
@@ -150,7 +150,7 @@ Higher ADR bookings show a higher cancellation tendency, with canceled reservati
 ---
 **6. Does longer stay increase cancellation rate?**
 
-**Visualization: **
+Visualization:
 1.Boxplot comparing week-night stays 
 2.Histogram of stay durations
 
@@ -168,7 +168,7 @@ Cancellation rates rise as week-night stays increase. Long-stay bookings show th
 ---
 **7. Does seasonality have a significant impact on booking cancellations?**
 
-**Visualization: **
+Visualization:
 1. Graph shows  Monthly Trends of ADR, Lead Time, and Cancellation Rate
 2. Line chart with forecast shading : Shows upward trend of cancellations.
 
