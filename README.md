@@ -81,7 +81,7 @@ Visualization: Stacked bar shows cancellation distribution across customer type,
 
 ![Cancellation Factors-1](img/Cancellation_Factors-_.jpg)
 
-These four variables were selected because they reflect booking behavior and conditions that the hotel can directly control. They also show the clearest differences in cancellation patterns and can be practically translated into policy actions. Hotels can adjust deposit policies, refine channel strategies, and design targeted offers for Online Travel Agencies and Transient customers, resulting in high business impact.
+These four features were selected because they reflect booking behavior and conditions that the hotel can directly control. They also show the clearest differences in cancellation patterns and can be practically translated into policy actions. Hotels can adjust deposit policies, refine channel strategies, and design targeted offers for Online Travel Agencies and Transient customers, resulting in high business impact.
 
 **Key Findings:**
 1. Customer Type: Transient customers have the highest cancellation rate (≈30%).
