@@ -101,7 +101,7 @@ Visualization: Pearson correlation table
 
 
 **Key Findings:** 
-  Most relevant factors associated with cancellation :
+ The correlation coefficients indicate no relationship between the variables and booking cancellations. Most relevant factors associated with cancellation are
    1. Lead Time
    2. ADR
    3. Stay in week night
