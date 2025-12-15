@@ -81,11 +81,13 @@ Visualization: Stacked bar shows cancellation distribution across customer type,
 
 ![Cancellation Factors-1](img/Cancellation_Factors-_.jpg)
 
+These four variables were selected because they reflect booking behavior and conditions that the hotel can directly control. They also show the clearest differences in cancellation patterns and can be practically translated into policy actions. Hotels can adjust deposit policies, refine channel strategies, and design targeted offers for Online Travel Agencies and Transient customers, resulting in high business impact.
 
 **Key Findings:**
 1. Customer Type: Transient customers have the highest cancellation rate (≈30%).
 2. Market Segment: Online TA (Online Travel Agencies) shows the highest cancellation rate (≈35%).
 3. Deposit Type:No-Refund bookings have extremely high cancellation rates (≈95%).
+(However, this group represents a relatively small sample size (approximately 1,000 bookings), and the hotel does not directly lose room revenue from these cancellations. Nevertheless, further investigation is warranted, as cancellations in this segment may still result in indirect revenue losses from ancillary services and on-property spending.)
 4. Distribution Channel:TA/TO (Travel Agents / Tour Operators) shows high cancellation rates (≈30%).
 
 **Summarize:**
